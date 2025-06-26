@@ -323,7 +323,6 @@ span {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
     margin-top: 112px;
 }
 
@@ -335,7 +334,6 @@ span {
     justify-content: center;
     align-items: center;
     position: relative;
-    border: 1px solid;
 }
 
 .page3_title {
