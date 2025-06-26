@@ -1,0 +1,43 @@
+@media (max-width:1250px){
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width:970px){
+    .page1_text{
+        width: 100%;
+    }
+}
+@media (max-width:720px){
+    .nav{
+        display: none;
+
+    }
+    .burger{
+        display: block;
+    }
+    #burger:checked~.nav{
+        display: block;
+        position: absolute;
+        top: 110px;
+        width: 150px;
+        height: 250px;
+        background-color: var(--orange);
+        z-index: 1;
+        
+    }
+    .nav_menu{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:689px){
+    .page1_title{
+        margin-top: 70px;
+    }
+}
+@media(max-width:277px){
+    .icons_div{
+        display: none;
+    }
+}
